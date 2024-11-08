@@ -19,3 +19,6 @@ function calculate(){
     }
     
 }
+function backshot(){
+    display.value = display.value.toString().slice(0,-1)
+}
